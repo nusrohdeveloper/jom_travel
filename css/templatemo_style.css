@@ -1,6 +1,6 @@
-/* 
+/*
 
-Flex Template 
+Flex Template
 
 http://www.templatemo.com/tm-406-flex
 
@@ -231,7 +231,18 @@ hr {
   border-top: 1px solid #e2e2e2;
   margin: 40px 0;
 }
-
+.header-text{
+  position: relative;
+  z-index: 11;
+  margin: 30px 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  display: inline-block;
+}
 .site-header ul.social-icons {
   position: relative;
   z-index: 11;
@@ -282,7 +293,7 @@ hr {
 }
 
 .logo-wrapper {
-  background: url(../images/logo.png) no-repeat;
+  background: url(../images/logo-sm.png) no-repeat;
   height: 100px;
   background-position: 15px;
 }
@@ -414,8 +425,8 @@ hr {
   }
 }
 @media screen and (max-width: 991px) {
-  .logo-wrapper { 
-    background-size: contain;     
+  .logo-wrapper {
+    background-size: contain;
   }
   .logo-wrapper{
     height: 50px;
@@ -433,7 +444,7 @@ hr {
   }
   .menu-first.show {
     /*opacity: 1;*/
-    /*height: auto;  */  
+    /*height: auto;  */
     margin-top: 10px;
     display: block;
     /*transition: opacity 1s, height 0;*/
@@ -441,17 +452,17 @@ hr {
   .menu-first {
     float: right;
     overflow: auto;
-    width: 100%;  
-    display: none;  
-    /*opacity: 1;  */  
-    /*height: 0;  */  
+    width: 100%;
+    display: none;
+    /*opacity: 1;  */
+    /*height: 0;  */
     /*background: rgba(50, 50, 50, 0.88);*/
     /*transition: opacity 1s, height 0 1s; */
     /*transition: all 0.3s ease;    */
   }
   .main-menu ul li a {
     line-height: 40px;
-    padding-top: 10px;   
+    padding-top: 10px;
   }
   .main-menu ul li.active a {
     border-top: none;
